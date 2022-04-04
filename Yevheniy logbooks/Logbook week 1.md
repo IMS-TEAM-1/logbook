@@ -36,19 +36,25 @@ Denna vecka har vi haft två föreläsningar och ett möte med gruppen då vi l�
 *Generellt*
 
 😊 Jag tyckte att alla i gruppen va taggade på att börja med projektet och vi fick ihop en bra organisations struktur. 
+
 ☹ Det har varit några delar som saknades för roboten så att inbyggda system kunde inte börja jobba direkt.
+
 `  `?
 
 *Processen*
 
 😊 Gruppen sammarbetade bra och vi kunde skapa en bra sprint plan för första veckan och det känns som att alla vet vad de ska göra kommande vecka.
+
 ☹ Oklart hur några krav ska tolkas så måste prata med läraren eller handledare för att få det klart. 
+
 `  `? 
 
 *Teamet*
 
 😊 Teamet ser ut och fungera bra och alla kommer överäns med varandra. 
+
 ☹  
+
 `  `?
 
 **Sprint 0 – Yevheniy Zanichkovskyy	Sida | 1	2022-03-31**
