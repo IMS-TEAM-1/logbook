@@ -13,8 +13,11 @@
 # **Sammanfattning**
 
 # **Dag för dag**
+
 *Måndag*
+
 - Idag har vi haft vår sprint planing möte då vi estimerade tasks för denna vecka och delade upp uppgifterna. Jag och Ivin började jobba på UX designen för applikationen. 
+
 *Tisdag*
 
 *Onsdag*
