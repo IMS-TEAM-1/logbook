@@ -19,14 +19,14 @@
 
 *Tisdag*
 
-- Stand up 09:00-10:00 där vi gick igenom vad vi gjort och vad vi tänkt göra indviduellt härnäst. 
+- Stand up där vi gick igenom vad vi gjort och vad vi tänkt göra indviduellt härnäst. 
 
-Föreläsning 10:00-11:45
-Eget arbete 13:15-  där jag satte mig ner själv och förde över koden från mBlock till Arduino för att kunna anpassa den lite bättre. Försökte öven strukturera upp och förstå koden lite bättre.-  -
+Föreläsning
+Eget arbete där jag satte mig ner själv och förde över koden från mBlock till Arduino för att kunna anpassa den lite bättre. Försökte öven strukturera upp och förstå koden lite bättre.-  -
 
 *Onsdag*
 
-- 
+- Stand up på morgonen med gruppen där vi gick igenom lite vad vi gjort och vad vi tänkt att göra. Därefter fortsatte vi med att dels strukturera upp koden på roboten bättre så den blir mer lättläst, samt testade att skicka meddelanden från roboten till raspberryn för att se så att kommunikationen fungerar.
 
 *Torsdag*
 
