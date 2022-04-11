@@ -27,3 +27,12 @@ As I finished most of my tasks yesterday, I was mostly helping my teammate,  he 
 Today we had our first retrospective. Everyone agreed that in general it was a really good week. The robot team showed some nice progress with mower and how it can detect black lines before it. We from the mobile did not show anything visual because there is barely anything visual that has been done, but we informed the rest that we can contact APIs correctly, so as soon as the real API is up we can connect. The backend team has finished the backend skeleton and is ready to set it up to AWS so next week some real progress will probably be made.
 
 One problem we had faced was that many of us believe that our schedule is a bit messed up. We changed time of meetings several times because it is very hard to make sure everyone can attend everytime. But the times we have decided on now should be fine for everybody so going forward it should be better.
+
+<h1>Week 3</h1>
+
+<h3>Monday 11 April</h3>
+
+Online sprint planning with everyone. I am going to continue working with the app and we intend to finish all the setup this week. As we resolved the dependencies last week we should be able to implement it rather quickly. 1 More teammate will join the app work this week, he will focus mostly on UX meanwhile I will finish the setup stuff that was behind. The plan is finish the setup tomorrow (because I dont have time work on this project on mondays) and then start doing the views and finish them before the end of the week.
+
+<h3>Tuesday 12 April</h3>
+
