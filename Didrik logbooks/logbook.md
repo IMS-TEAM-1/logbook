@@ -48,7 +48,7 @@ The progress is solid and my subteam is done with the main task for this week an
 
 ## retrospective 07042022
 
-I met up with Filip, Yevheniy and Valentin to work an halfhour before the meeting started.
+I met up with three others to work an halfhour before the meeting started.
 We managed to debugg some code and later put it all within a docker-container for easier management of packages and startup scripts.
 We also implemented nodemon for autorestart of the application whenever changes are made.
 
@@ -66,7 +66,7 @@ The main takeaway was our planning, we need to be more strict with the times we 
 We agreed on the retrospective to have it online.
 Only two new tasks where added this week. We played (a loose version of) plannin poker to assign the points for these cards and then again split into small subteams working on each card.
 
-I worked later on in the day together with Valentin. 
+I worked later on in the day together with one teamate. 
 He had implemented Knex and Bookshelf as ORM for communication between database and the api.
 I started to work on bringing in the local instance of database into the docker instance, which I did get to work.
 I did not however solve the communication of Knex, so the feature is not yet done.
