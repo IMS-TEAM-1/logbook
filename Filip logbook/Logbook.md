@@ -40,3 +40,7 @@ So we decided that I will not be doing the setup, rather I will just be reading 
 
 <h3>Wednesday 13 April</h3>
 
+Still reading documentation to understand how to correctly use MVVM structure for the project. Killian is working on implementation and is soon getting it done. I try to help whenever he needs help.
+
+<h3>Thursday 14 April</h3>
+
