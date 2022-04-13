@@ -36,3 +36,7 @@ Online sprint planning with everyone. I am going to continue working with the ap
 
 <h3>Tuesday 12 April</h3>
 
+So we decided that I will not be doing the setup, rather I will just be reading documentation and working on some minor UX stuff.
+
+<h3>Wednesday 13 April</h3>
+
