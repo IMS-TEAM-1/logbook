@@ -22,5 +22,6 @@ TODO
 These things are working perfectly and now I understand a bit more the structure and the mobile developement. To finish this part, I should adapt what Filip did whith his mocked api call, everything with dependencie injection (DI) to add every next steps of the project.
 
 *Wednesday*
+- On Wednesday, I was still working on the same topic. I managed to implement what Filip has done with the mocked Api and convert his part with the mvvm architecture and abstraction. It seems to be good, I have to test it to be sure that everything work fine. The View and ViewModel are done, just have to connect them together and it should be over.
 
 *Thursday*
