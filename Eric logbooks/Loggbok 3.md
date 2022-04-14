@@ -24,7 +24,7 @@ så att den rör sig i rätt riktning. Vi tror vi stort sätt blev klar med denn
 
 *Onsdag*
 
-- 
+- Arbete på roboten där jag och John testade kod som skall översätta de inkommande variablerna från appens joystick till styrning för motorerna på roboten vilket vi tror vi löst helt. Jag satt även med raspberryn och skrev kod för att ta en bild med kameran när ultraljuds sensorn på roboten stötte på ett objekt vilket nu fungerar.
 
 *Torsdag*
 
