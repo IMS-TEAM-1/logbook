@@ -44,3 +44,14 @@ Still reading documentation to understand how to correctly use MVVM structure fo
 
 <h3>Thursday 14 April</h3>
 
+MVVM structure is finished. Good job Killian. The retrospective was on discord because the lecture was on Zoom.  There were 1 person reported missing from the Mower-team. It was reported that we need a day where we decide upon some interface structure for the communication between mower-cloud-app.
+
+<h1>Week 4</h1>
+
+<h3>Tuesday 19</h3>
+
+Monday was a red day so no sprint planning then. It was today instead and we decided to work on getting the connection complete this week. The app is ready to send http requests to the backend and the backend will be put up on a server this week. The mower will focus on it as well. Bluetooth will be the next step for next week.
+
+<h3>Wednesday 20</h3>
+
+Today I am working on merging the views to our new MVVM structure.
