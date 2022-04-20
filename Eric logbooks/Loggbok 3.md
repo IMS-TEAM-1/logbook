@@ -7,10 +7,11 @@
 # **Namn:	Eric Magnusson**
 # **Grupp:	1**
 # **Roll:	Developer**
-# **Datum:	2022-04-13**
+# **Datum:	2022-04-17**
 # **Sprint: 	2**
 #
 # **Sammanfattning**
+Vår grupp har jobbat på bra och vi har nu ommunikation mellan arduinon och raspberryn vilket gör att arduinon kan "säga åt" raspberryn att ta bilder. Vi har även strukturerat upp ett protokoll på hur kommunikationen skall fungera samt implementerat kod för att kunna ta emot kommandon från en joystick på appen och sedan översätta dessa för att kunna styra motorerna på roboten.
 
 # **Dag för dag**
 *Måndag*
@@ -28,16 +29,16 @@ så att den rör sig i rätt riktning. Vi tror vi stort sätt blev klar med denn
 
 *Torsdag*
 
-- 
+- Jag, John och Sargis fortsatte jobbet på roboten med att strukturera upp ett protokoll för kommunikationen mellan arduinon, raspberryn, backend och appen för att få en bild av hur detta skulle kunna fungera. Senare under dagen hade vi vårt retro-möte där grupperna gick igenom vad de gjort under veckan och hur det hade gått. Det verkar fortfarande som alla grupper ligger i fas vilket kns bra. Det togs även upp att vi har en person i vår grupp som inte medverkat någonting under hela veckan och hur detta skulle behandlas.
 
 *Fredag*
 
 # **Reflektioner** 
 *Generellt*
 
-😊	
+😊	Teamet tycker jag fortfarande känns bra med kommunikation osv.
 
-☹	
+☹	En i gruppen som inte medverkat denna vecka utan att säga varför.
 
 `  `**?**  	
 
