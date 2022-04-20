@@ -54,4 +54,4 @@ Monday was a red day so no sprint planning then. It was today instead and we dec
 
 <h3>Wednesday 20</h3>
 
-Today I am working on merging the views to our new MVVM structure.
+Today I worked on merging the views to our new MVVM structure. The views was done in another branch on the side, so today when we were going to marge it was a bit of changes that needed to be done for conflicts. I worked on this with Killian and Ivin. After that we set it up so that we cleaned up a lot of code and are not using unnecessary code. It was a good day, we are ready for demo tomorrow where we will show the app and the views working correctly and being able to connect to API.
