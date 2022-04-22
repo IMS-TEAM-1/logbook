@@ -16,43 +16,42 @@
 # **Dag för dag**
 *Måndag*
 
-- Vi har haft vår första föreläsning på kursen där de gick igenom vad vi ska göra och sen delade oss i grupper. Vi skapade en discord kanal med alla i vår grupp. 
+- Vi träffades för vår sprint planning, där vi planerade vilka uppgifter vi skulle göra under veckan. Vi fick också roboten att köra inom ett markerat område.
 
 *Tisdag*
 
-- -
+- Vi har haft ett stand up möte där vi gick igenom vad vi har gjort individuelt.
 
 *Onsdag*
 
-- Vi har haft vår andra Föreläsning där föreläsare från Husqvarna där de berättade mycket om hur de jobbade inom företaget. 
+- Vi fick ultra-sonic sensor att funka så att roboten kan undvika saker om de står framför och sen backa och vända på sig. Jag har också jobbat med seriel kommunikation mellan roboten och raspberry pi
 
 *Torsdag*
 
-- Hela gruppen träffades i skolan kl. 13:00, där vi prsenterade och delade oss själva i mindre grupper samt bestämde vilka roller vi ska ha. Jag valde att vara en developer och jobbar med raspberry pi och arduino i själva roboten. vi har också två scrum masters så att mower teamet har en och app/backend har en. Vi satte även ihop roboten.
-*Fredag*
+- Jag var sjuk och gjorde inte så mycket.
 
 # **Reflektioner** 
 *Generellt*
 
 😊	Känns bra och alla medlemar i gruppen verkar komma öveerns.
 
-☹	Vi fick inte HDMI sladden.
+☹	Jag var sjuk i slutet på veckan och kände mig lite trött.
 
 `  `**?**  	
 
 *Processen*
 
-😊	Vi kommer köra enligt Scrum vilket känns bra då alla av oss i gruppen använt oss utav det tidigare.
+😊	Processen har gått bra och vbi gjorde klart det vi bestämde oss vi skulle göra.
 
-☹	lite vervous om tidsplannering så att den inte påverkar examensarbete
+☹	Lite vervous om tidsplannering så att den inte påverkar examensarbete
 
 `  `?	
 
 *Teamet*
 
-😊	Känns bra och alla verkar vara taggade.
+😊	
 
-☹	En medlem va sjuck och kunde inte vara med.
+☹	Flera var sjuka och missade en hel del.
 
 `  `?	
 
