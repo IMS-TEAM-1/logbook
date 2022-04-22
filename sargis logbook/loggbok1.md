@@ -28,8 +28,7 @@ Vi har haft vårat första möte med gruppen där vi prsenterade oss själva och
 
 *Torsdag*
 
-- Första träffen med gruppen i skolan där vi började med att presenterade oss för varandra samt bestämma vilka roller alla i gruppen skulle ha. Jag kommer att vara developer för själva roboten och sysla framförallt med hur styrningen av denna skall fungera. Vi bestämde även att vi skulle jobba med 2 teams, en för app/backend och en för roboten med separata Scrum masters. Vi fortsatte sedan med bestämma vilka mål vi hade med projektet och hur vi skulle strukturera upp arbetet för att nå dit. Vi byggde även ihop hela roboten och startade upp den.
-
+- Hela gruppen träffades i skolan kl. 13:00, där vi prsenterade och delade oss själva i mindre grupper samt bestämde vilka roller vi ska ha. Jag valde att vara en developer och jobbar med raspberry pi och arduino i själva roboten. vi har också två scrum masters så att mower teamet har en och app/backend har en. Vi satte även ihop roboten.
 *Fredag*
 
 # **Reflektioner** 
@@ -37,7 +36,7 @@ Vi har haft vårat första möte med gruppen där vi prsenterade oss själva och
 
 😊	Känns bra och alla medlemar i gruppen verkar komma öveerns.
 
-☹	
+☹	Vi fick inte HDMI sladden.
 
 `  `**?**  	
 
@@ -53,7 +52,7 @@ Vi har haft vårat första möte med gruppen där vi prsenterade oss själva och
 
 😊	Känns bra och alla verkar vara taggade.
 
-☹	
+☹	En medlem va sjuck och kunde inte vara med.
 
 `  `?	
 
