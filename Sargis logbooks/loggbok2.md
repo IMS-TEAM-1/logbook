@@ -41,7 +41,7 @@
 
 *Processen*
 
-😊	Processen har gått bra och vbi gjorde klart det vi bestämde oss vi skulle göra.
+😊	Processen har gått bra och vi gjorde klart det vi bestämde oss vi skulle göra.
 
 ☹	Lite vervous om tidsplannering så att den inte påverkar examensarbete
 
