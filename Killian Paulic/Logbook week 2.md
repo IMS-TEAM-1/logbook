@@ -25,3 +25,5 @@ These things are working perfectly and now I understand a bit more the structure
 - On Wednesday, I was still working on the same topic. I managed to implement what Filip has done with the mocked Api and convert his part with the mvvm architecture and abstraction. It seems to be good, I have to test it to be sure that everything work fine. The View and ViewModel are done, just have to connect them together and it should be over.
 
 *Thursday*
+- Today we had the retrospective, but unfortunatly I was not able to be there because I had a lecture on that time.
+For the mvvm structure, everything is done. We will need to adapt the design part to fit with the rest of the architecture.
