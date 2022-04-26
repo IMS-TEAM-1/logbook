@@ -55,3 +55,13 @@ Monday was a red day so no sprint planning then. It was today instead and we dec
 <h3>Wednesday 20</h3>
 
 Today I worked on merging the views to our new MVVM structure. The views was done in another branch on the side, so today when we were going to marge it was a bit of changes that needed to be done for conflicts. I worked on this with Killian and Ivin. After that we set it up so that we cleaned up a lot of code and are not using unnecessary code. It was a good day, we are ready for demo tomorrow where we will show the app and the views working correctly and being able to connect to API.
+
+<h3>Thursday 21 April</h3>
+
+Today I demo'ed the App for the rest of the team and showed our http request to a mock api as well as our views and how it will look. The views that are not finished are the map view and controller. The map we are waiting a bit with because we dont know how to handle the drawing of the position of the mower yet.
+
+<h1> Week 5 </h1>
+
+<h3>Monday  25 April</h3>
+
+I did not work today on the project but I went to the lecture. I attended the sprint plan and we decided to finish the connection between the different parts and to send a hello-world from app -> cloud -> mower.  It will be tested on thursday on our demo. Some views need to be correctly integrated, we are missing for example the controller (its 90% finished) and the map. Will need to talk to Ivin and Killian to sort this.
