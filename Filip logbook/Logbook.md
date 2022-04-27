@@ -65,3 +65,14 @@ Today I demo'ed the App for the rest of the team and showed our http request to 
 <h3>Monday  25 April</h3>
 
 I did not work today on the project but I went to the lecture. I attended the sprint plan and we decided to finish the connection between the different parts and to send a hello-world from app -> cloud -> mower.  It will be tested on thursday on our demo. Some views need to be correctly integrated, we are missing for example the controller (its 90% finished) and the map. Will need to talk to Ivin and Killian to sort this.
+
+<h3>Tuesday 26 April</h3>
+
+I attended the standup, but had to work on other courses. The api went up today, so I did some testing towards it Postman and it worked great.
+
+<h3>Wednesday 27 April</h3>
+
+I attended the standup today as well, but I still had to work on other courses today. Will catchup on Friday / the weekend.
+
+<h3>Thursday 28 April</h3>
+
