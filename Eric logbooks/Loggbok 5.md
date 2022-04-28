@@ -25,7 +25,7 @@
 *Onsdag*
 
 - Jag och Sargis har börjat kika lite mer på hur vi skall implementera kommunikationen till backend via rest api vilket vi fick att fungera relativt snabbt. 
-Vi kunde även testa att hela kommunikations kedjan från backend ner till arduinon fungerar.
+Vi kunde även testa att hela kommunikationskedjan från backend ner till arduinon fungerar.
 
 *Torsdag*
 
