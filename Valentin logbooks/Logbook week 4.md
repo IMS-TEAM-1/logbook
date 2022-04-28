@@ -7,7 +7,7 @@
 # **Name:	Valentin Bonnet**
 # **Group:	1**
 # **Role:	Developer**
-# **Date:	2022-04-22**
+# **Date:	2022-04-15**
 # **Sprint: 	0**
 #
 # **Summary**
@@ -15,16 +15,16 @@ This week we continue to work on the API project.
 
 # **Day by day**
 *Monday*
-- Work on the API Routes
+- Continue to work on the API and fix bugs
 
 *Tuesday*
-- Work on the API Routes
+- Continue to work on the API and fix bugs
 
 *Wednesday*
-- Work on the API Controllers
+- Continue to work on the API and fix bugs
 
 *Thursday*
-- Work on the API Controllers
+- Continue to work on the API and fix bugs
 
 *Friday*
-- Work on the API Controllers
+- Continue to work on the API and fix bugs
