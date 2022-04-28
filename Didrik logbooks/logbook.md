@@ -64,7 +64,7 @@ The main takeaway was our planning, we need to be more strict with the times we 
 ## sprint planning 11042022
 
 We agreed on the retrospective to have it online.
-Only two new tasks where added this week. We played (a loose version of) plannin poker to assign the points for these cards and then again split into small subteams working on each card.
+Only two new tasks where added this week. We played (a loose version of) planning poker to assign the points for these cards and then again split into small subteams working on each card.
 
 I worked later on in the day together with one teamate. 
 He had implemented Knex and Bookshelf as ORM for communication between database and the api.
@@ -78,4 +78,53 @@ I did not however solve the communication of Knex, so the feature is not yet don
 
 ## standup 12042022
 
-Many had not yet started working on the project this week and instead focused on thesis work as a deadline is coming up.
+Many had not yet started working on the project this week and instead focused on thesis work as a deadline is coming up. I had tried to add the database implemented using knex and bookshelf within a docker-container but did not succeed during this day. 
+On wednesday I went on a trip and could not work on the project during this week.
+
+
+# week 4
+
+## sprint planning 19042022
+
+Due to illness I could not attend our sprint planning (which was pushed from monday to tuesday due to "red day")
+
+
+## standup 20042022
+
+No real progress compared to yesterday as we all had a deadline for our thesis work this morning. I along with one more decided to together try and implement Google Vision API later this day.
+
+Me and one other team mate met up online and started to work on the google vision api. 
+The code itself was not difficult to implement, but we did not understand the authorization needed.
+The steps detailed in the official documentation did not yield us any favorable results, so no more progress on this today.
+
+
+## retrospective 21042022
+
+The feelings in the group where rather good.
+Some ups and downs during the week but not related to the project itself.
+
+We in the backend team had some dependency issues that needed to be resolved during the weekend.
+The goal for the next sprint is to do a connectivity test amongst all systems.
+
+
+# week 5
+
+## sprint planning 25042022
+
+Like i mentioned in the retrospective, the goal for this week is to do an system wide connectivity test.
+If the people working on mobile have time they shall also start looking into bluetooth connectivity.
+
+To meet this goal we need to try and deploy the backend.
+The dependency issues encountered last week are now fixed so now we just need to figure out how to deploy it.
+
+Me and another team mate looked at it later this day but met trouble after trouble.
+Because our system is managed with docker we thought we could simply delploy it using docker-hub, but because we are using two images it was eaiser said then done.
+We did try to just deploy it using an Ubuntu instance, basically just a virtual machine but still could not access it.
+
+
+# standup 26042022
+
+A bit after we had our standup meeting one person in our team needed help with git.
+I went to school to help him and together we managed to also deploy the backend correctly.
+The issue was that we did not port forward the port the app used as endpoint.
+

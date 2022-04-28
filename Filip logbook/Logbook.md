@@ -36,3 +36,43 @@ Online sprint planning with everyone. I am going to continue working with the ap
 
 <h3>Tuesday 12 April</h3>
 
+So we decided that I will not be doing the setup, rather I will just be reading documentation and working on some minor UX stuff.
+
+<h3>Wednesday 13 April</h3>
+
+Still reading documentation to understand how to correctly use MVVM structure for the project. Killian is working on implementation and is soon getting it done. I try to help whenever he needs help.
+
+<h3>Thursday 14 April</h3>
+
+MVVM structure is finished. Good job Killian. The retrospective was on discord because the lecture was on Zoom.  There were 1 person reported missing from the Mower-team. It was reported that we need a day where we decide upon some interface structure for the communication between mower-cloud-app.
+
+<h1>Week 4</h1>
+
+<h3>Tuesday 19</h3>
+
+Monday was a red day so no sprint planning then. It was today instead and we decided to work on getting the connection complete this week. The app is ready to send http requests to the backend and the backend will be put up on a server this week. The mower will focus on it as well. Bluetooth will be the next step for next week.
+
+<h3>Wednesday 20</h3>
+
+Today I worked on merging the views to our new MVVM structure. The views was done in another branch on the side, so today when we were going to marge it was a bit of changes that needed to be done for conflicts. I worked on this with Killian and Ivin. After that we set it up so that we cleaned up a lot of code and are not using unnecessary code. It was a good day, we are ready for demo tomorrow where we will show the app and the views working correctly and being able to connect to API.
+
+<h3>Thursday 21 April</h3>
+
+Today I demo'ed the App for the rest of the team and showed our http request to a mock api as well as our views and how it will look. The views that are not finished are the map view and controller. The map we are waiting a bit with because we dont know how to handle the drawing of the position of the mower yet.
+
+<h1> Week 5 </h1>
+
+<h3>Monday  25 April</h3>
+
+I did not work today on the project but I went to the lecture. I attended the sprint plan and we decided to finish the connection between the different parts and to send a hello-world from app -> cloud -> mower.  It will be tested on thursday on our demo. Some views need to be correctly integrated, we are missing for example the controller (its 90% finished) and the map. Will need to talk to Ivin and Killian to sort this.
+
+<h3>Tuesday 26 April</h3>
+
+I attended the standup, but had to work on other courses. The api went up today, so I did some testing towards it Postman and it worked great.
+
+<h3>Wednesday 27 April</h3>
+
+I attended the standup today as well, but I still had to work on other courses today. Will catchup on Friday / the weekend.
+
+<h3>Thursday 28 April</h3>
+
