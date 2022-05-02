@@ -90,4 +90,4 @@ Sprint planning at 9, I mentioned the documentation writing that all teams needs
 
 We were discussing how to visualize the path. Didde mentioned that the XY coordinates will be in a continuous stream and in a very long DB table. This will clutter the path the longer you have the mower going. I suggested splitting it into different runtime sections. So after each "pause" or "sleep" command, the next session will be counted as a completely new drive. The clutter on the visualization will be less, and the structure of the system will be more scalable I believe. 
 
-I started working on the visualization ....
+I today merged together the UI branch and the API branch. The only view left is visualize_path which I am going to work on the remainder of the week on. There was a lot of conflict for the merge so it took a long time. I also changed so we can send api requests to the actual API and use the information we get, so for example we display the mower name on the first page now directly from API. Worked together with Killian on this. Tomorrow I will look into visualizing the path.
