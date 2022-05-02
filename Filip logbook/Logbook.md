@@ -10,7 +10,7 @@ We will be adopting the SCRUM methodology for our work.
 
 
 
-<h1>Week 2</h1>
+<h1>Week 2 - 20h</h1>
 
 <h3> Monday 4 April</h3>  We did estimations and started working on our parts that we were assigned. I will be working with Killian on the mobile app this week. After the sprint planning it was time for other studies, and not much more was done today.
 
@@ -28,7 +28,7 @@ Today we had our first retrospective. Everyone agreed that in general it was a r
 
 One problem we had faced was that many of us believe that our schedule is a bit messed up. We changed time of meetings several times because it is very hard to make sure everyone can attend everytime. But the times we have decided on now should be fine for everybody so going forward it should be better.
 
-<h1>Week 3</h1>
+<h1>Week 3 - 25h</h1>
 
 <h3>Monday 11 April</h3>
 
@@ -46,7 +46,7 @@ Still reading documentation to understand how to correctly use MVVM structure fo
 
 MVVM structure is finished. Good job Killian. The retrospective was on discord because the lecture was on Zoom.  There were 1 person reported missing from the Mower-team. It was reported that we need a day where we decide upon some interface structure for the communication between mower-cloud-app.
 
-<h1>Week 4</h1>
+<h1>Week 4 - 22h</h1>
 
 <h3>Tuesday 19</h3>
 
@@ -60,7 +60,7 @@ Today I worked on merging the views to our new MVVM structure. The views was don
 
 Today I demo'ed the App for the rest of the team and showed our http request to a mock api as well as our views and how it will look. The views that are not finished are the map view and controller. The map we are waiting a bit with because we dont know how to handle the drawing of the position of the mower yet.
 
-<h1> Week 5 </h1>
+<h1> Week 5 - 13h</h1>
 
 <h3>Monday  25 April</h3>
 
@@ -78,8 +78,16 @@ I attended the standup today as well, but I still had to work on other courses t
 
 I attended the demo, catched up with Killian and Ivin and the views are looking good. I can easily integrate them into the app next week. I can also be way more efficient in this course because there will be less pressure from the thesis work. The demo went well, we got to see the mower in partial action and it does look nice.
 
-<h1>Week 6</h1>
+<h3>Sunday 1 May</h3>
+
+Looked into the requirements for the project as a whole. We have a whole lot of documentation to write, which I started today. I also noticed we need to do a Lesson Learned Document which I will inform the team about tomorrow. I started on the documentation, and looked for potential things we may have missed in the problem requirements.
+
+<h1>Week 6 - h</h1>
 
 <h3>Monday 2 May</h3>
 
-Sprint planning at 9,
+Sprint planning at 9, I mentioned the documentation writing that all teams needs to do. Also about the lesson learned document. As I looked more into the requirements yesterday I think I understood what we need to do moving forward better and explained some of this to the team. 
+
+We were discussing how to visualize the path. Didde mentioned that the XY coordinates will be in a continuous stream and in a very long DB table. This will clutter the path the longer you have the mower going. I suggested splitting it into different runtime sections. So after each "pause" or "sleep" command, the next session will be counted as a completely new drive. The clutter on the visualization will be less, and the structure of the system will be more scalable I believe. 
+
+I started working on the visualization ....
