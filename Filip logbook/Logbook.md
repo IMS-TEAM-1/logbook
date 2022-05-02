@@ -76,3 +76,10 @@ I attended the standup today as well, but I still had to work on other courses t
 
 <h3>Thursday 28 April</h3>
 
+I attended the demo, catched up with Killian and Ivin and the views are looking good. I can easily integrate them into the app next week. I can also be way more efficient in this course because there will be less pressure from the thesis work. The demo went well, we got to see the mower in partial action and it does look nice.
+
+<h1>Week 6</h1>
+
+<h3>Monday 2 May</h3>
+
+Sprint planning at 9,
