@@ -9,6 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-04-29**
 # **Sprint: 	4**
+# **Arbetade timmar: 20**
 #
 # **Sammanfattning**
 Denna veckan gick lite bättre än förra veckan då vi faktiskt kommit en rätt bra bit med kommunikationen. Vi kan nu hämta ett meddelande från backend samt ta emot kommandon via bluetooth. 

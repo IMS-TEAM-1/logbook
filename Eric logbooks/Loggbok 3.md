@@ -9,6 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-04-17**
 # **Sprint: 	2**
+# **Arbetade timmar: 20**
 #
 # **Sammanfattning**
 Vår grupp har jobbat på bra och vi har nu ommunikation mellan arduinon och raspberryn vilket gör att arduinon kan "säga åt" raspberryn att ta bilder. Vi har även strukturerat upp ett protokoll på hur kommunikationen skall fungera samt implementerat kod för att kunna ta emot kommandon från en joystick på appen och sedan översätta dessa för att kunna styra motorerna på roboten.
