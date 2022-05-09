@@ -122,9 +122,85 @@ Because our system is managed with docker we thought we could simply delploy it 
 We did try to just deploy it using an Ubuntu instance, basically just a virtual machine but still could not access it.
 
 
-# standup 26042022
+## standup 26042022
 
 A bit after we had our standup meeting one person in our team needed help with git.
 I went to school to help him and together we managed to also deploy the backend correctly.
 The issue was that we did not port forward the port the app used as endpoint.
+
+
+## standup 27042022
+
+I did not work anything today, instead solely focused on the thesis work.
+
+
+## retrospective 28042022
+
+The idea for this retrospective was to have a connectivity test, but the mobile team did not have the correct version of software on their computer and could therefore not participate.
+We in the backend had also not published the last needed endpoints to the server.
+Instead we talked about what we have done and what is left.
+
+After the meeting me and another teamate sat down and fixed the rest of the endpoints in the backend along with error handling.
+
+
+# week 6
+
+# sprint planning 02052022
+
+We discussed what is left to do and we are focusing on bluetooth connectivity and map visualization this week.
+
+
+Some small tweaks are needed in the backend, but the main feature we are missing is the google vision api - image classification.
+Other then that it feels like we are on schedule.
+
+After the meeting I merged a branch with a lot of changes in to our main branch.
+This means all endpoints and the logic for them is close to complete and up on the server ready for anyone to use.
+
+
+# standup 03052022
+
+I did not do much work this day
+
+
+# standup 04052022
+
+I met up with people from the mower team to help them questions about the API.
+During this time I set up the skeleton code for how the image shall be created.
+
+
+## demo / retrospective 05052022
+
+Today I also stopped by a bit earlier to help others.
+During this time I went through our code and changed small things like more consistent namings and added more debugging logs.
+
+We ran into a strange bug when the mower team made posts requests, and it happens to be that python cannot created nested objects. 
+Our inital though was that the body of the post requests would look something like this, because We need the location to link the image to a location:
+
+```json
+{
+  image{
+    "image": "base64"
+  },
+  location{
+    "x": 0,
+    "y": 0
+  }
+}
+```
+
+But because python is unable to create nested objects, we had to change the requests body to look like this instead:
+
+```json
+{
+  "image": "base64",
+  "x":0,
+  "y":0
+}
+```
+
+Because of this I also sat down and updated our documentation, both the standard REAMDE.md file and our Api-docs.md file.
+
+
+## sprint planning 09052022
+
 
