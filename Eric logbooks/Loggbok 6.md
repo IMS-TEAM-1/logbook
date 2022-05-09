@@ -33,6 +33,8 @@ Under veckan har det jobbats på med roboten samnt mycket med kommunikationen so
 
 *Fredag*
 
+- 
+
 # **Reflektioner** 
 *Generellt*
 
