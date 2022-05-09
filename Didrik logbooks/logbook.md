@@ -1,5 +1,7 @@
 # week 1
 
+hours worked: 20
+
 v.27 2022
 
 The groups first meeting was on thursday (31/3).
@@ -16,7 +18,11 @@ We have internal team standups at tuesdays and wednesdays, and a demo at thursda
 
 Some tasks / stories where created in Trello but they need refinement.
 
+
 # week 2
+
+hours worked: 20
+
 
 ## sprint planning 04042022
 
@@ -61,6 +67,8 @@ The main takeaway was our planning, we need to be more strict with the times we 
 
 # week 3
 
+hours worked: 20
+
 ## sprint planning 11042022
 
 We agreed on the retrospective to have it online.
@@ -78,11 +86,14 @@ I did not however solve the communication of Knex, so the feature is not yet don
 
 ## standup 12042022
 
-Many had not yet started working on the project this week and instead focused on thesis work as a deadline is coming up. I had tried to add the database implemented using knex and bookshelf within a docker-container but did not succeed during this day. 
+Many had not yet started working on the project this week and instead focused on thesis work as a deadline is coming up. 
+I had tried to add the database implemented using knex and bookshelf within a docker-container but did not succeed during this day. 
 On wednesday I went on a trip and could not work on the project during this week.
 
 
 # week 4
+
+hours worked: 20
 
 ## sprint planning 19042022
 
@@ -97,6 +108,12 @@ Me and one other team mate met up online and started to work on the google visio
 The code itself was not difficult to implement, but we did not understand the authorization needed.
 The steps detailed in the official documentation did not yield us any favorable results, so no more progress on this today.
 
+We did merge our features from our `feature/database` branch into our main branch, along with writing some documentation.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/2a2ea496ed036865f4e905a1d9f38830e4fc374d)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/4cf9239e25075fee64c7a7ca30347b8a66fbcc39)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/8f10ce1cc3f710935fc77e35166e8f3171306a48)
+
 
 ## retrospective 21042022
 
@@ -108,6 +125,8 @@ The goal for the next sprint is to do a connectivity test amongst all systems.
 
 
 # week 5
+
+hours worked: 20
 
 ## sprint planning 25042022
 
@@ -128,10 +147,21 @@ A bit after we had our standup meeting one person in our team needed help with g
 I went to school to help him and together we managed to also deploy the backend correctly.
 The issue was that we did not port forward the port the app used as endpoint.
 
+I also fixed some requests for users and mowers, updated our documentation and reworked the code from callbacks to async/await for cleaner looking code.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/d4f654a6bfa1361e68128d9a14ed3435fd80d7d1)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/227beb9b4811dd7842e6acb656d210c6826b3fcb)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/bbc1fb6fa9afba850ca7e1267326d1a8ae3bbfeb)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/08f13762b3165a9210c715b1a415e66807279913)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/5bf781db5c86123193904beba553e25e373fafd4)
+
 
 ## standup 27042022
 
-I did not work anything today, instead solely focused on the thesis work.
+Today I did do some error handling and skeleton code for images and locations.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/d7640d75588ee60a7f9eb946ef2e1d54d6f1966a)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/77be5f273250d32f72bbd2416593a8c006373def)
 
 
 ## retrospective 28042022
@@ -142,10 +172,15 @@ Instead we talked about what we have done and what is left.
 
 After the meeting me and another teamate sat down and fixed the rest of the endpoints in the backend along with error handling.
 
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/60171a26c373f74e01eb8e2df1ec4e51dfc46d15)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/ce3569fb642c31c73b27a5330591f2b9fbe7f1e9)
+
 
 # week 6
 
-# sprint planning 02052022
+hours worked: 20
+
+## sprint planning 02052022
 
 We discussed what is left to do and we are focusing on bluetooth connectivity and map visualization this week.
 
@@ -156,16 +191,26 @@ Other then that it feels like we are on schedule.
 After the meeting I merged a branch with a lot of changes in to our main branch.
 This means all endpoints and the logic for them is close to complete and up on the server ready for anyone to use.
 
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/0a8e96e03b75ea37eebfb37ae23999295f7730f1)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/f49de368a4d557e2b828cb5b6369dc1986388c51)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/9fc3200d97143e84ef76004dd22f2994366f1a44)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/e0dcc5c5789c1f2d3cd396a6e8729c99801db71a)
 
-# standup 03052022
+## standup 03052022
 
-I did not do much work this day
+I did not do much work this day, fixed a typo after the mower team recognized that the backend crashed while they where trying to fetch a mower.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/4fa857fb1de266061d0c01fcb491f4141cd4582b)
 
 
-# standup 04052022
+## standup 04052022
 
 I met up with people from the mower team to help them questions about the API.
 During this time I set up the skeleton code for how the image shall be created.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/632f3810d9d0bc7294c4ba84d0078395529b8a61)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/3804042b91999171ef05c1291f2cf5d1f1e93320
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/8ec27bef4305971aa5c9fc24508be69893d77204)
 
 
 ## demo / retrospective 05052022
@@ -178,10 +223,10 @@ Our inital though was that the body of the post requests would look something li
 
 ```json
 {
-  image{
+  "image" {
     "image": "base64"
   },
-  location{
+  "location" {
     "x": 0,
     "y": 0
   }
@@ -200,7 +245,23 @@ But because python is unable to create nested objects, we had to change the requ
 
 Because of this I also sat down and updated our documentation, both the standard REAMDE.md file and our Api-docs.md file.
 
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/0e0bc0f2e7862baf477a9783375fd8c8d1222d7f)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/7f6e09f1c35fa7deae8bc299f54a999b59981fe3)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/0c39f794cdb576a49286961ede69bd04a0ce8859)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/90915cc8f9aeae3cde1d737fb6560e998a5c0bb9)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/f9d01630973b621e9acde7d30419be2f02e32550)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/f7eab471ca14ab8297e6d1a674c82e10170e137b)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/2aebe581d61381572dc000f02628d8a8c5b74943)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/063e4cc252dd957aaf2918abc98a7d57becd2a85)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/e4209c73ad36f91c3c54520a5efc8ad875543f73)
+
 
 ## sprint planning 09052022
 
+We met up online the whole group and went over what we need to do.
+What is left for the backend team is the google-vision-api.
+The code for it and authentication is complete, we just need to look over it and test it.
+The mobile team is focusing on bluetooth and the drawing of mower location this week.
+The mower team shall focus on transmitting their position and any collision images to the backend.
 
+We went over all milestones that we needed to complete and it is looking like we are on schedule.
