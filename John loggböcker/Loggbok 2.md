@@ -9,6 +9,7 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-04-10**
 # **Sprint: 	1**
+# **Tid:	20h
 #
 # **Sammanfattning**
 Gruppen har jobbat riktigt bra. Vi har kommit långt in på arbetet för mowern och det rullar på väldigt bra. Andra hade lite problem på backend/app sidan men lät som att det kommer att lösa sig bra nästa vecka. Två föreläsningar samt flera möten med gruppen hölls där vi båda skapade funktioner för roboten men även förfinare och strukturerade upp koden.

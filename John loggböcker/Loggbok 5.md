@@ -9,6 +9,7 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-05-01**
 # **Sprint: 	4**
+# **Tid:	20h
 #
 # **Sammanfattning**
 Mycket kommenterande, fixande, uppaterande och generellt förberedande för vad som kommer implementeras framöver. Vi börjar få riktiga resultat och bra funktionaliteter. Mowern kan nu bli styrd av Pi:en som i sin tur blir det av Backend, vilket i sin tur blir det av appen. Jag har även börjar med dead-reckoning som har millimeter precision. Mer utveckling behövs dock.

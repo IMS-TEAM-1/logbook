@@ -9,9 +9,11 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-03-31**
 # **Sprint: 	0**
+# **Tid:	Ca. 10h
 #
 # **Sammanfattning**
 Det var två föreläsningar jag gick på. Teamet träffades för första gången, lärde känna varandra och började planera dels saker som tid och mål som passar alla men även saker kopplade till systemet och arkitekturen. Roboten sattes ihop och mjukvara var uppladdad till den men eftersom det fattades en HDMI-sladd och Kjell inte hade en på lager, får det dröja till nästa vecka när Andreas kan ge en till mig. Det känns mycket bra hittills.
+Tillägg från senare veckor: Vi bestämde denna vecka att strikt jobba 20h, inte mindre, inte mer. Detta pga. att många spendera för mycket tid på Flexicharge projektet (tidigare kurs) och vi ville inte göra samma misstag i detta projekt också denna vecka var dock ingen direkt arbetsvecka och därmed blev det inte riktigt 20h men alla kommande är avrundat dit på tiden är planerad att bli 20h.
 # **Dag för dag**
 *Måndag*
 
