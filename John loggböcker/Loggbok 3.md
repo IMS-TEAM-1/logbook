@@ -9,6 +9,7 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-04-17**
 # **Sprint: 	2**
+# **Tid:	20h
 #
 # **Sammanfattning**
 Mower gruppen har kommit en bra bit längre in på arbetet: fungrande kommunikation mellan Pi:en och Arduinon, bilder kan tas med kameran genom Arduinon, Arduinon är redo för att styras manuellt med joystick men det kanske inte ska implementeras ändå samt mycket andra småsaker. Vi jobbar på bra och känner att vi ligger väl i fas.

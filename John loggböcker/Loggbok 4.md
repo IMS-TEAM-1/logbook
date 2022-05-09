@@ -9,6 +9,7 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-04-24**
 # **Sprint: 	3**
+# **Tid:	20h
 #
 # **Sammanfattning**
 Denna veckan har många mjukvaru-buggar och liknande hindrat mower-gruppen till att jobba effektivt men veckan avslutades med att man nu kan styra mowern över ett designat protokoll från Pi:en och är redo för att kunna bli styrd från appens BLE eller REST API:en. Det ska försökas bli ett integration-tillfälle mellan grupperna då.

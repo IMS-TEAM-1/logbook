@@ -9,6 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-03-31**
 # **Sprint: 	0**
+# **Arbetade timmar: 20**
 #
 # **Sammanfattning**
 Under veckan har jag gått på de 2 första föreläsningarna. Vi hade även vårat första möte med gruppen där vi började planera upp vad som skulle göras samt även gå igenom de krav som finns på vår mower med allt vad det gäller app och vad man ska kunna göra med den. Vi gick även igenom hur vi skulle planera upp arbetet under veckorna så det passade alla i gruppen samt satte ihop själva roboten.
