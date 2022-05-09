@@ -82,7 +82,7 @@ I attended the demo, catched up with Killian and Ivin and the views are looking 
 
 Looked into the requirements for the project as a whole. We have a whole lot of documentation to write, which I started today. I also noticed we need to do a Lesson Learned Document which I will inform the team about tomorrow. I started on the documentation, and looked for potential things we may have missed in the problem requirements.
 
-<h1>Week 6 - h</h1>
+<h1>Week 6 - 20h</h1>
 
 <h3>Monday 2 May</h3>
 
@@ -91,3 +91,21 @@ Sprint planning at 9, I mentioned the documentation writing that all teams needs
 We were discussing how to visualize the path. Didde mentioned that the XY coordinates will be in a continuous stream and in a very long DB table. This will clutter the path the longer you have the mower going. I suggested splitting it into different runtime sections. So after each "pause" or "sleep" command, the next session will be counted as a completely new drive. The clutter on the visualization will be less, and the structure of the system will be more scalable I believe. 
 
 I today merged together the UI branch and the API branch. The only view left is visualize_path which I am going to work on the remainder of the week on. There was a lot of conflict for the merge so it took a long time. I also changed so we can send api requests to the actual API and use the information we get, so for example we display the mower name on the first page now directly from API. Worked together with Killian on this. Tomorrow I will look into visualizing the path.
+
+<h3>Tuesday 3 May</h3>
+
+Looked into the drawing of path visualization. I attempted to create a canvas and draw on it, but it conflicted with our dependency injection. Not sure how to proceed from here, need to talk to Killian.
+
+<h3>Wednesday 4 May</h3>
+
+More of yesterday, debugging what could be wrong and cause the issue. It seems, as we need to extend a fragment with the View class, but I cannot do that because we use dependency injection. Next week I will need to sort this out preferably with Killian as he is the go-to-guy for MVVM stuff now.
+
+<h3>Thursday 5 May</h3>
+
+For the demo I was there but had no real progress to show, but it was still nice to see where everyone is at and all. We discussed a lot of potential documents we need to write before we finish the project, like the WBS and project description. Luckily I have already done a bit of project description so that should be fine. We agreed that someone should talk to Andreas about what counts as a WBS, but as I am writing this I think we did not assign anyone to this, so it will probably be forgotten until I read this ...
+
+<h1> Week 7 - h</h1>
+
+<h3>Monday 9 May</h3>
+
+Attended the sprint planning at 9.  We agreed upon a session where all teams gather and you code together and or test stuff. It will probably be wednesday if all goes according to plan. I am still tasked with doing the path visualization as well the API requests to start autonomous driving. The api request I can fix but path visualization is harder than I imagined. On wednesday I will be able to work fulltime on this project as I should finish my thesis work for tomorrow.
