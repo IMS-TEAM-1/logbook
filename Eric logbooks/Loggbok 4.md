@@ -9,6 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-04-22**
 # **Sprint: 	3**
+# **Arbetade timmar: 20**
 #
 # **Sammanfattning**
 En lite sämre vecka för oss vad jag tycker då vi stött på ett flertal problem vilket har gjort att det gått lite sämre än de föregående veckorna vi haft. Vi har dock ändå kunnat styra roboten genom raspberryn nu vilket är ett steg i rätt riktning.

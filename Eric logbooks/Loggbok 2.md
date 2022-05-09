@@ -9,6 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-04-10**
 # **Sprint: 	1**
+# **Arbetade timmar: 20**
 #
 # **Sammanfattning**
 Projektet rullar på och känns som om vi kommit en bra bit på den tiden vi haft. Kommunikationen innom gruppen fungerar bra. Vi har fått roboten att röra sig i stort som vi vill och vi har lagt en del tid på koden nu under veckan så den blir mycket mer lättläst och strukturerad. Vi har även kommunikation mellan rasberryn och arduinon.
