@@ -9,7 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-04-10**
 # **Sprint: 	1**
-#
+# **Antal timmar: 20**
 # **Sammanfattning**
 - Gruppen har jobbat bra och hat kommit rätt bra fammåt. Vi har skapat fdunktioner för robboten och den börjar röra på sig nu. Vi har även strukturerat koden så att den är lätt att läsa.
 
