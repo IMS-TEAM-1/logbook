@@ -9,7 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-03-31**
 # **Sprint: 	0**
-#
+# **Antal timmar: 23**
 # **Sammanfattning**
 Vi har haft vårat första möte med gruppen där vi prsenterade oss själva och sen planerade hur vi skulle dela upp gruppen och vem ska göra vad. Vi gick igenom kraven på mower och appen. Vi gick även igenom vilka tider vi skulle arbeta där det passade alla och sen satt ihop roboten. 
 
