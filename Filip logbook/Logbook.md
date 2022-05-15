@@ -104,8 +104,25 @@ More of yesterday, debugging what could be wrong and cause the issue. It seems, 
 
 For the demo I was there but had no real progress to show, but it was still nice to see where everyone is at and all. We discussed a lot of potential documents we need to write before we finish the project, like the WBS and project description. Luckily I have already done a bit of project description so that should be fine. We agreed that someone should talk to Andreas about what counts as a WBS, but as I am writing this I think we did not assign anyone to this, so it will probably be forgotten until I read this ...
 
-<h1> Week 7 - h</h1>
+<h1> Week 7 - 23h</h1>
 
 <h3>Monday 9 May</h3>
 
 Attended the sprint planning at 9.  We agreed upon a session where all teams gather and you code together and or test stuff. It will probably be wednesday if all goes according to plan. I am still tasked with doing the path visualization as well the API requests to start autonomous driving. The api request I can fix but path visualization is harder than I imagined. On wednesday I will be able to work fulltime on this project as I should finish my thesis work for tomorrow.
+
+<h3>Tuesday 12 May</h3>
+
+Fixed starting and stopping for autonomous driving. Works great with app -> postman, so it should work well with the actual mower too. Will have to test it on thursday. Told Yev that we need more clarifications on what the WBS and project description and lesson learned document is. He should bring this up on his thursday meeting with Husqvarna.
+
+<h3>Wednesday 11 May</h3>
+
+Looked more into path visualization, found a potential way of making it work via using creating a class that extends Drawable(), but will have to test later, too tired after looking into the best possiblities for this...
+
+<h3>Thursday 12 May</h3>
+
+Demo. We watched the mover doing it testing and it seemed good. The app is ready with starting and stopping autonomous driving. Unfortunately the mower team did not have the proper setup for us test the start-stop autonomous driving. After the demo Yev and I sat with trying to get the permissions to work for bluetooth. We did not solve it on the spot, but when I got home I started googling and found a potential fix, he said he was going to try and implement it, will hear from him on Monday.
+
+<h3>Sunday 15 May</h3>
+
+Got drawLine to work with the Drawable class. Started setting up so we can fetch the datapoints.
+
