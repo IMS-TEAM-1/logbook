@@ -126,3 +126,9 @@ Demo. We watched the mover doing it testing and it seemed good. The app is ready
 
 Got drawLine to work with the Drawable class. Started setting up so we can fetch the datapoints.
 
+<h1>Week 8 - xxh</h1>
+
+<h3>Monday 16 May</h3>
+
+Sprint planning. We discussed the MVP and what is required of us. 2 people are away mon-wed and mon-fri which will make this week tough. For me, I will be finishing the path-visualization. Thanks to the work yesterday I should be able to finish rather quickly. The difficulty will lie in making it scalable + showing a picture. I don't know if I will be able to finish those tasks on my own, will get cleared as the days go.
+
