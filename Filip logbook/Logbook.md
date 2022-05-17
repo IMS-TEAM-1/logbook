@@ -132,3 +132,6 @@ Got drawLine to work with the Drawable class. Started setting up so we can fetch
 
 Sprint planning. We discussed the MVP and what is required of us. 2 people are away mon-wed and mon-fri which will make this week tough. For me, I will be finishing the path-visualization. Thanks to the work yesterday I should be able to finish rather quickly. The difficulty will lie in making it scalable + showing a picture. I don't know if I will be able to finish those tasks on my own, will get cleared as the days go.
 
+<h3>Tuesday 17 May</h3>
+
+I finished after the meeting so that the path is visualize as according to the coordinates fetched from the api. It works all well. Later today Didrik and I worked on making it scaleable which we succeeded with, the solution is a bit messy but I will clean that up tomorrow and try to finish our documentation. For my of the work I am mostly finished, got a few minor tweaks to fix. Will try to be able to help the team as much as possible going forward.
