@@ -67,7 +67,7 @@ The main takeaway was our planning, we need to be more strict with the times we 
 
 # week 3
 
-hours worked: 20
+hours worked: 10
 
 ## sprint planning 11042022
 
@@ -148,6 +148,21 @@ I went to school to help him and together we managed to also deploy the backend 
 The issue was that we did not port forward the port the app used as endpoint.
 
 I also fixed some requests for users and mowers, updated our documentation and reworked the code from callbacks to async/await for cleaner looking code.
+
+Callback example:
+
+```js
+manager.getAllMowers(function(data){
+  respond.send(data)
+})
+```
+
+async/await example:
+
+```js
+const data = await manager.getAllMowers()
+respond.send(data)
+```
 
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/d4f654a6bfa1361e68128d9a14ed3435fd80d7d1)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/227beb9b4811dd7842e6acb656d210c6826b3fcb)
