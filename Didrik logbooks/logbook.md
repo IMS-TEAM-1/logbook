@@ -336,6 +336,19 @@ We went over what we had done and what we expect to finnish with today.
 Drawing the map with the locations from the backend was the main focus point and I helped the person working on it later this day.
 We managed to figure out how to scale the map according to the max x and y values present in the database, meaning our canvas for drawing is 500px and the max x value is 100, we have a scaling factor of 5 to make sure drawing of the map ends up scaling correctly.
 
+During this time I tested the classification with different pictures.
+How the api works is that it sends back an array of labels that all classify the image. Anyone of these is a correct classification, just in different ways. Example: Send an image with a fotball on grass with a blue sky backdrop. The API will respond with:
+
+- sky
+- fotball
+- plant
+- field
+- etc..
+
+The problem here is that there is no way of knowing in what order the labels are returned in, therefore we cannot decern which one actually represents the object we want. For now, we just take the first classication label and call it a day, but that unfortunely gives us the results "Sky" when we send in a fotball.
+
+I feel like this is an issue with the API and not our code, and therefore will not put any more time into it.
+
 
 ## standup 18052022
 
