@@ -209,7 +209,7 @@ I met up with people from the mower team to help them questions about the API.
 During this time I set up the skeleton code for how the image shall be created.
 
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/632f3810d9d0bc7294c4ba84d0078395529b8a61)
-- [commit](https://github.com/IMS-TEAM-1/backend/commit/3804042b91999171ef05c1291f2cf5d1f1e93320
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/3804042b91999171ef05c1291f2cf5d1f1e93320)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/8ec27bef4305971aa5c9fc24508be69893d77204)
 
 
@@ -223,10 +223,10 @@ Our inital though was that the body of the post requests would look something li
 
 ```json
 {
-  "image" {
+  "image": {
     "image": "base64"
   },
-  "location" {
+  "location": {
     "x": 0,
     "y": 0
   }
