@@ -163,4 +163,24 @@ In the evening Yev and I sat down and worked on cleaning up some of the code, ma
 
 <h3>Sunday 22 May</h3>
 
-Final meeting today. Yesterday was good, 
+Final meeting today. Yesterday was good. We met in school at 14.00. Those who were here was:
+* Didrik
+* John
+* Eric
+* Yevve
+* Alexander
+* Sargis
+* Me(Filip)
+We fixed all bugs in the system, tested all functions several times and merged all applications so that it is in its final stage.
+We fixed the documentation for all parts, workbreakdown, and the lesson learned document. 
+Made the movie for which we will use on the demo.
+I worked together with Yev most of the time,
+we together fixed:
+* Path-draw drew an additional line which was wrong.
+* BT connection connects and disconnects via button presses.
+* States are handled correct
+* Screen orientation is locked
+* BT permissions does no longer crash the app on first time use.
+The app is presentation ready thanks to today. We will be sending in everything tonight at some point.
+
+
