@@ -9,6 +9,7 @@
 # **Role:	Developer**
 # **Date:	2022-04-01**
 # **Sprint: 	0**
+# **Time: 	30**
 #
 # **Summary**
 This week we had two lectures and it was also the beginning of the project. So we created differents teams and created a schedule and organization for our group and which methodology
