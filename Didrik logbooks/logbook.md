@@ -270,6 +270,10 @@ Because of this I also sat down and updated our documentation, both the standard
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/063e4cc252dd957aaf2918abc98a7d57becd2a85)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/e4209c73ad36f91c3c54520a5efc8ad875543f73)
 
+# week 7
+
+hours worked: 20
+
 
 ## sprint planning 09052022
 
@@ -308,7 +312,7 @@ They therefore requested that we add a state in the backend so that the mobile a
 This shall be an easy fix but is pushed to next week as we still have some testing to do on google vision api.
 
 
-# week 7
+# week 8
 
 hours worked: 30
 
@@ -428,8 +432,4 @@ Mower
 
 - inverted coordinates to get the direction of map correct
 - reset coordinates whenever state is "STANDBY", this fixes a bug where driving in manual mode would get the coordinates to increase to super large and make the scaling factor in application wrong.
-
-
-
-
 
