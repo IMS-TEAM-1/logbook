@@ -9,7 +9,7 @@
 # **Roll:	Team leader för group 1**
 # **Datum:	2022-04-01**
 # **Sprint: 	0**
-#
+# **Tid:	10-15h**
 # **Sammanfattning**
 Denna vecka har vi haft två föreläsningar och ett möte med gruppen då vi lärde känna varandra och bestämmde vem som skulle ha vilka roller, gjorde en preliminär schema för möten och planerade första veckans sprint. Gruppen har också börjat med några uppgifter som var planerade för första sprint.
 # **Dag för dag**
