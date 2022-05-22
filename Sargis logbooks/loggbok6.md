@@ -7,11 +7,11 @@
 # **Namn:	Sargis Tammo**
 # **Grupp:	1**
 # **Roll:	Developer**
-# **Datum:	2022-04-29**
-# **Sprint: 	4**
+# **Datum:	2022-05-06**
+# **Sprint: 	5**
 # **Antal timmar: 20**
 # **Sammanfattning**
-- Gruppen har jobbat bra och hat kommit rätt bra fammåt. Vi kan har kommunikation mellan rasberry pi och backend där vi kan läsa medelande.
+- Gruppen har jobbat bra och hat kommit rätt bra fammåt. Vi kan har kommunikation mellan rasberry pi och backend där vi kan läsa medelande skicka position och bilder
 
 # **Dag för dag**
 *Måndag*
@@ -20,15 +20,15 @@
 
 *Tisdag*
 
-- börjat kolla lite på backend och rest api och försökt lära mig hur postman funkar
+- sjuck
 
 *Onsdag*
 
-- Jag jobbade med att implementera kommunikation mellan raspberry pi och backend via rest api.
+- Jag jobbade fortfarande med backend kommunikation för att kunna skicka position av mower.
 
 *Torsdag*
 
-- forsatt jobba med kommunikation. lkite ändringar från backend sidan gjordes vilket påverkade kommunikationen.
+- Jag jobbade fortfarande med backend kommunikation för att kunna skicka bilder när mower träffar in hinder
 
 # **Reflektioner** 
 *Generellt*
@@ -55,4 +55,4 @@
 
 `  `?	
 
-**Sprint 4 – Sargis Tammo	Sida | 1	2022-04-29**
+**Sprint 5 – Sargis Tammo	Sida | 1	2022-05-06**
