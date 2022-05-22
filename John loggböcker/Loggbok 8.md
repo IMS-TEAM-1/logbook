@@ -9,7 +9,7 @@
 # **Roll:	Scrum Master av Inbyggda System teamet**
 # **Datum:	2022-05-22**
 # **Sprint: 	7**
-# **Tid:	35h
+# **Tid:	40h
 #
 # **Sammanfattning**
 Gruppen har slitit in in slutet på att lösa att problem som har varit kvar. Dessa har bland annat varit mystiska problem med data som försvinner vid seriell kommunikation, kortsluten (potentiellt) kamera och Pi som betydde att mycket behövdes göras om gällande konfigurationer samt problem med BT i appen och annat för att slutföra projektet. Många timmar har lagts och gruppen har behövt jobba i overdrive men vi lyckades slutföra projektet.
@@ -47,13 +47,14 @@ Gruppen har slitit in in slutet på att lösa att problem som har varit kvar. De
 
 - Jag, Alexander, Eric, Sargis (delvis), Yevve, Didrik och Filip samlades, vilket är dom mest aktiva i projektet, och löste dom sista problemet och utförde för första gången ett komplett systemtest där dom sista buggarna åtgärdades.
 - Vi jobbade även med lessons learned och slutförde lite dokumentation och andra final touches.
+- Ett flertal personer, inkl. mig själv, samlades även i Discord för att bocka av dom sista requirementsen vid 12-slaget. Nu kände sig alla klara och allt är redo för att lämnas över som klart.
 
 # **Reflektioner** 
 *Generellt*
 
 😊	Känns bra att kunna slutföra projektet med ett fungerande system.
 
-☹	Medlemmar har inte bidragit alls med det det som borde bidras med (Valentin, Killian) och några har harit frånvarande ofta i slutet (Sargis, Alexander) av olika anledningar. Detta gjorde att det knappt var möjligt att få ihop systemet och få allt fungerande då vi har jobbat dom timmarna som fattades från frånvarande medlemmar.
+☹	Medlemmar har inte bidragit alls med det det som borde bidras med (Valentin, Killian) och några har harit frånvarande ofta (Sargis, Alexander) av olika anledningar. Detta gjorde att det knappt var möjligt att få ihop systemet och få allt fungerande då vi har jobbat dom timmarna som fattades från frånvarande medlemmar.
 
 `  `**?**  	Blankt.
  
