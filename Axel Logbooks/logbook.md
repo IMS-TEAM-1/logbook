@@ -72,4 +72,4 @@ sub-categories, and we might implement this to get a better label if there is ti
 This week we encountered a problem regarding sending and storing the images in the database. We wanted the images to be stored in the database to then be displayed in the app after
 the mower encountered an object. However, storing the images outside the docker container on the server was not that easy. We tried to fix the problem, but figured since it is not
 a requirement to display the image on in the app, we decided to only show the label. If we find more time, we will try to fix the problem. Furthermore, we had a problem with the
-bluetooth connectivity. Most of the members from every team gathered to try to fix the problem.
+bluetooth connectivity. Most of the members from every team gathered to try to fix the problem. We tried to fix the problem for several hours without figuring out what was wrong with it. We got to a point where it connected but in the wrong way so we could not send the messages we needed to the Pi. We eventually gave up the Bluetooth and opted to control the robot through the backend instead. Other team members fixed that functionality.
