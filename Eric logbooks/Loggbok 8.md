@@ -25,7 +25,7 @@
 
 *Onsdag*
 
-- 
+- Arbete med bluetooth där vi får tillbaka kostiga värden från arduinon då vi skickar kommandon via en testapp på mobilen.
 
 *Torsdag*
 
