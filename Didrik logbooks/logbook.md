@@ -310,6 +310,8 @@ This shall be an easy fix but is pushed to next week as we still have some testi
 
 # week 7
 
+hours worked: 30
+
 ## sprint planning 16052022
 
 We went over what is left to do.
@@ -375,6 +377,9 @@ people present:
 - Sargis
 - John
 - Alexander
+
+This meeting turned out to be just a pure coding sessions to fix some bugs in the system.
+I went over and restructered the image storing as our inital thought of storing the whole base64 string in the database did not work, but instead had to write the image to disk.
 
 
 ## extra meeting 20052022
