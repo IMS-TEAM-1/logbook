@@ -362,3 +362,69 @@ We aim to be as close to done as possible.
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/c64f6b9147f8de8fb45918464ac5095ab1cf6cd1)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/d4c3bf4f89df020321e979dfa3f39e54033cf3c8)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/7b67ce8aa4fdc9eaee4b04d79066cfe1e61b6d11)
+
+
+## retrospective 19052022
+
+people present:
+- Didrik
+- Axel
+- Yevve
+- Filip
+- Eric
+- Sargis
+- John
+- Alexander
+
+
+## extra meeting 20052022
+
+people present:
+- Didrik
+- Axel
+- Yevve
+- Filip
+- Eric
+- Sargis
+- John
+- Alexander
+- Valentin (late)
+
+Because bluetooth was not fixed yet, we decided to create a backup plan where use the backend as middle man for controlling the manual driving.
+Me and Filip sat down for 2 hours and I fixed the logic for it in the backend while Filip fixed the logic for it in the mobile application.
+
+The bluetooth manual driving was fixed and tested later during the day, so the work me and Filip did was kind of a waste... :)
+Still good to have a backup plan.
+
+
+## final meeting before hand in 21052022
+
+
+people present:
+- Didrik
+- Axel
+- Yevve
+- Filip
+- Eric
+- Sargis (Left early)
+- John
+- Alexander
+
+During this day we made sure to test all aspects of our system, as well as filming videos for the demo.
+
+Some small changes where made like:
+
+Application
+
+- fix map drawing bug where it always drew line to the middle
+
+
+Mower
+
+- inverted coordinates to get the direction of map correct
+- reset coordinates whenever state is "STANDBY", this fixes a bug where driving in manual mode would get the coordinates to increase to super large and make the scaling factor in application wrong.
+
+
+
+
+
