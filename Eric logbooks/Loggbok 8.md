@@ -12,7 +12,7 @@
 # **Arbetade timmar: 20**
 #
 # **Sammanfattning**
- Har kännts något stressigt så här på slutet då vissa hårdvarumässiga problem dykt upp helt plötsligt och vi haft mycket prblem med att få till anslutningen med bluetooth till appen på mobilen.
+ Har kännts något stressigt så här på slutet då vissa hårdvarumässiga problem dykt upp helt plötsligt och vi haft mycket problem med att få till anslutningen med bluetooth till appen på mobilen.
 
 # **Dag för dag**
 *Måndag*
@@ -25,7 +25,7 @@
 
 *Onsdag*
 
-- Arbete med bluetooth där vi får tillbaka kostiga värden från arduinon då vi skickar kommandon via en testapp på mobilen.
+- Arbete med bluetooth där vi får tillbaka konstiga värden från arduinon då vi skickar kommandon via en testapp på mobilen. Löstes med att dra ner baudraten mellan arduinon och raspberryn samt skicka kortare kommandon mellan de två.
 
 *Torsdag*
 
@@ -33,15 +33,15 @@
 
 *Fredag*
 
-- Arbete med att få kameran på raspberry pi zero:n att fungera igen men jag inte lyckades med. Detta ledde till att vi nu övergått till att använda en raspberry pi 4 istället.
+- Arbete med att få kameran på raspberry pi zero:n att fungera igen men jag inte lyckades med. Detta ledde till att vi nu övergått till att använda en raspberry pi 4 istället. Satt sedan med John och jobbade på att få det att fungera med kameran och bluetooth till den nya raspberryn vilket senare löstes.
 
 *Lördag*
 
-- 
+- Deltog i möten online då vi hade Yev och Alexander i skolan som tillslut hittat lösning på problemet med bluetooth.
 
 *Söndag*
 
-- 
+- Möte på skolan för att lösa de sista buggarna, göra tester med hela systemet och skriva den dokumentation som ej är klar.
 
 # **Reflektioner** 
 *Generellt*
