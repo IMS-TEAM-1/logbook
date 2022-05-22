@@ -126,7 +126,7 @@ Demo. We watched the mover doing it testing and it seemed good. The app is ready
 
 Got drawLine to work with the Drawable class. Started setting up so we can fetch the datapoints.
 
-<h1>Week 8 - xxh</h1>
+<h1>Week 8 - 30h</h1>
 
 <h3>Monday 16 May</h3>
 
@@ -156,8 +156,11 @@ So, what I have done for this project so far is:
 * Created the http requests the app sends to the backend.
 * Path-visualization, scaling was done by me and Didrik.
 
-Today I implemented a working module for sending manual driving commands via the API, I did it for the app and Didrik set up the backend to allow it to work. It was a "backup" plan, because at the same time the guys were still trying to get BT to works. Thankfully, they did. So me and Didrik's work is not going to be used, but we could use it in case something happens before the presentation.
+We had an emergency meeting at 12:00 today, because the BT did not work as it should. Unfortunately only 5-6 people were there, and a lot of people we have not heard from very much the last couple days. We decided to have 2 more meetings today, 15:00 and 18:00 just to make sure everything is on track to get this to work. 
+
+I implemented a working module for sending manual driving commands via the API, I did it for the app and Didrik set up the backend to allow it to work. It was a "backup" plan, because at the same time the guys were still trying to get BT to works. Thankfully, they did. So me and Didrik's work is not going to be used, but we could use it in case something happens before the presentation.
 In the evening Yev and I sat down and worked on cleaning up some of the code, made sure constants are used where they seem to fit etc. Tomorrow we are going to test the entire system at 14.00, and I will be cleaning up some code in the morning and merge the branches with Yev.
 
 <h3>Sunday 22 May</h3>
 
+Final meeting today. Yesterday was good, 
