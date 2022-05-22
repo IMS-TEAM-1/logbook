@@ -16,7 +16,7 @@
 # **Dag för dag**
 *Måndag*
 
-- spri´nt planing som valigt på distans.
+- sprint planing som valigt på distans.
 
 *Tisdag*
 
