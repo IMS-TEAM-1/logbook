@@ -126,7 +126,7 @@ Demo. We watched the mover doing it testing and it seemed good. The app is ready
 
 Got drawLine to work with the Drawable class. Started setting up so we can fetch the datapoints.
 
-<h1>Week 8 - xxh</h1>
+<h1>Week 8 - 30h</h1>
 
 <h3>Monday 16 May</h3>
 
@@ -135,3 +135,32 @@ Sprint planning. We discussed the MVP and what is required of us. 2 people are a
 <h3>Tuesday 17 May</h3>
 
 I finished after the meeting so that the path is visualize as according to the coordinates fetched from the api. It works all well. Later today Didrik and I worked on making it scaleable which we succeeded with, the solution is a bit messy but I will clean that up tomorrow and try to finish our documentation. For my of the work I am mostly finished, got a few minor tweaks to fix. Will try to be able to help the team as much as possible going forward.
+
+<h3>Wednesday 18 May</h3>
+
+Today I tried to clean up the solution from yesterday a bit. The message text from the google image-classification is now written to the canvas "last", so that it appears as a higher layer. I started a big on creating http-request to send a DIAGNOSTIC mode to the mower, as they have created a test case. It works but there may be error handling required going forward, will have to discuss this with them.
+
+<h3>Thursday 19 May</h3>
+
+So today was going to be our big test day. Unfortunately, BT does not work on the phone, and the mower can not send pictures to the backend anymore. Apparantly this worked this morning, so something strange has happened. The mower team are thinking its an pi-update that made the camera go deprecated. As these two things dont work, the hand-in is incomplete. Unfortunately we have been low on team members this week as well as 2 people are on vacation. We agreed to have another meeting tomorrow where we shall then try what should have worked today.
+
+<h3>Friday 20 May</h3>
+
+Today they solved the camera and location issues and they write to the server. Unfortunately we could not get BT to work. The team-leader suggested going the API route for manual control, which is what we were considering week 1 before we heard BT was supposedly a requirement. Since it is API stuff I guess I will be required to work on it and "make it" work.
+
+<h3> Saturday 21 May</h3>
+
+So, what I have done for this project so far is:
+
+* Helped with MVVM-setup.
+* Created the http requests the app sends to the backend.
+* Path-visualization, scaling was done by me and Didrik.
+
+We had an emergency meeting at 12:00 today, because the BT did not work as it should. Unfortunately only 5-6 people were there, and a lot of people we have not heard from very much the last couple days. We decided to have 2 more meetings today, 15:00 and 18:00 just to make sure everything is on track to get this to work. 
+
+I implemented a working module for sending manual driving commands via the API, I did it for the app and Didrik set up the backend to allow it to work. It was a "backup" plan, because at the same time the guys were still trying to get BT to works. Thankfully, they did. So me and Didrik's work is not going to be used, but we could use it in case something happens before the presentation.
+In the evening Yev and I sat down and worked on cleaning up some of the code, made sure constants are used where they seem to fit etc. Tomorrow we are going to test the entire system at 14.00, and I will be cleaning up some code in the morning and merge the branches with Yev.
+
+<h3>Sunday 22 May</h3>
+
+Final meeting today. Yesterday was good, 

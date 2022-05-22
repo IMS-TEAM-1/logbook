@@ -67,7 +67,7 @@ The main takeaway was our planning, we need to be more strict with the times we 
 
 # week 3
 
-hours worked: 20
+hours worked: 10
 
 ## sprint planning 11042022
 
@@ -149,6 +149,21 @@ The issue was that we did not port forward the port the app used as endpoint.
 
 I also fixed some requests for users and mowers, updated our documentation and reworked the code from callbacks to async/await for cleaner looking code.
 
+Callback example:
+
+```js
+manager.getAllMowers(function(data){
+  respond.send(data)
+})
+```
+
+async/await example:
+
+```js
+const data = await manager.getAllMowers()
+respond.send(data)
+```
+
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/d4f654a6bfa1361e68128d9a14ed3435fd80d7d1)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/227beb9b4811dd7842e6acb656d210c6826b3fcb)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/bbc1fb6fa9afba850ca7e1267326d1a8ae3bbfeb)
@@ -209,7 +224,7 @@ I met up with people from the mower team to help them questions about the API.
 During this time I set up the skeleton code for how the image shall be created.
 
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/632f3810d9d0bc7294c4ba84d0078395529b8a61)
-- [commit](https://github.com/IMS-TEAM-1/backend/commit/3804042b91999171ef05c1291f2cf5d1f1e93320
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/3804042b91999171ef05c1291f2cf5d1f1e93320)
 - [commit](https://github.com/IMS-TEAM-1/backend/commit/8ec27bef4305971aa5c9fc24508be69893d77204)
 
 
@@ -219,14 +234,14 @@ Today I also stopped by a bit earlier to help others.
 During this time I went through our code and changed small things like more consistent namings and added more debugging logs.
 
 We ran into a strange bug when the mower team made posts requests, and it happens to be that python cannot created nested objects. 
-Our inital though was that the body of the post requests would look something like this, because We need the location to link the image to a location:
+Our inital though was that the body of the post requests would look something like this, because we need the location to link the image to a location:
 
 ```json
 {
-  "image" {
+  "image": {
     "image": "base64"
   },
-  "location" {
+  "location": {
     "x": 0,
     "y": 0
   }
@@ -265,3 +280,85 @@ The mobile team is focusing on bluetooth and the drawing of mower location this 
 The mower team shall focus on transmitting their position and any collision images to the backend.
 
 We went over all milestones that we needed to complete and it is looking like we are on schedule.
+
+
+## standup 10052022
+
+Me together with one other teammate worked to finnish the Google Vision API implementation.
+After this day it worked as intended but had not been tested thoroughly.
+What is left is to clean up the code a bit and add some error handling.
+
+
+## standup 11052022
+
+Me together with the same teammate as before continued to work with google vision api. While it was working we had not tested it that much, but decided to still merge it into our main branch and push it up to the server for more testing.
+We did also add some error handling by try catch to make sure that if the classification failed the server would still be up.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/cbd9c9deb161bb7f699f41703bb6c003df4b6fb7)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/383624b370e902dae9cc177e7f1de2cbf755e7c1)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/c702e075000ae4ce6faf5e8b97b7ebd312694877)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/130515525c16edaeb7fd4c27c654033b211c07cd)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/86a69bef64ebe90bdff7119dd0ead741d9ef520d)
+
+
+## retrospective 12052022
+
+The mower team dislpayed a new feature where the mower runs a diagnostic test to make sure all modules works as intended.
+They therefore requested that we add a state in the backend so that the mobile application can change it and therefore trigger the diagnostic state for the mower.
+This shall be an easy fix but is pushed to next week as we still have some testing to do on google vision api.
+
+
+# week 7
+
+## sprint planning 16052022
+
+We went over what is left to do.
+Because google vision api was fixed last week what is left in the backend is adding an extra state for diagnostics that the mower can run, and testing to make sure everything works as intended.
+
+The things needed for mobile team is drawing the map correctly and fixing sending commands via bluetooth for manual driving.
+
+The things needed for mower team is connecting via bluetooth and sending commands coming from the mobile application to the aurdoino that sits on the mower.
+
+I later this day did some documentation and added comments in our code.
+I did also finnish the test script for image classification, where we connect to the backend and sends an image to see that it works properly.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/7e6c7abf002556d5c5940c91eba358796fab4c83)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/76adb75eac7f0da193d84aa05895e1c8f4899927)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/62fe254ff5044462357ebe839abe360c7fc52469)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/a9616485e445aee24d452a708419ab2a30a349f9)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/39fedf7a1dce622b0b99dae4c896f5ae53ea0039)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/a95b4e5b9e4a11eda58085f2f51134cfdf432c01)
+
+
+## standup 17052022
+
+We went over what we had done and what we expect to finnish with today.
+Drawing the map with the locations from the backend was the main focus point and I helped the person working on it later this day.
+We managed to figure out how to scale the map according to the max x and y values present in the database, meaning our canvas for drawing is 500px and the max x value is 100, we have a scaling factor of 5 to make sure drawing of the map ends up scaling correctly.
+
+During this time I tested the classification with different pictures.
+How the api works is that it sends back an array of labels that all classify the image. Anyone of these is a correct classification, just in different ways. Example: Send an image with a fotball on grass with a blue sky backdrop. The API will respond with:
+
+- sky
+- fotball
+- plant
+- field
+- etc..
+
+The problem here is that there is no way of knowing in what order the labels are returned in, therefore we cannot decern which one actually represents the object we want. For now, we just take the first classication label and call it a day, but that unfortunely gives us the results "Sky" when we send in a fotball.
+
+I feel like this is an issue with the API and not our code, and therefore will not put any more time into it.
+
+
+## standup 18052022
+
+Standard standup.
+After the meeting I went to meet up most of our group at school to aid with questions and fix the remaining stuff in the backend.
+We needed to rebuild our database when adding the new state `DIAGNOSTICS` which I did with some help from other teammembers.
+
+The goal for tomorrow is to test all the functioning parts of the system, check our documentation and write a lessons learned document.
+We aim to be as close to done as possible.
+
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/c64f6b9147f8de8fb45918464ac5095ab1cf6cd1)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/d4c3bf4f89df020321e979dfa3f39e54033cf3c8)
+- [commit](https://github.com/IMS-TEAM-1/backend/commit/7b67ce8aa4fdc9eaee4b04d79066cfe1e61b6d11)
