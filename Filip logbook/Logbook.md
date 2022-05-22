@@ -153,7 +153,11 @@ Today they solved the camera and location issues and they write to the server. U
 So, what I have done for this project so far is:
 
 * Helped with MVVM-setup.
-* Created the http requests the app sends to the backend
+* Created the http requests the app sends to the backend.
 * Path-visualization, scaling was done by me and Didrik.
 
-Today I guess I will have to implement so that manual driving works via the api. It may be laggy, it may take time. But it will work by the end of the time so long as the backend can implement the functions as well.
+Today I implemented a working module for sending manual driving commands via the API, I did it for the app and Didrik set up the backend to allow it to work. It was a "backup" plan, because at the same time the guys were still trying to get BT to works. Thankfully, they did. So me and Didrik's work is not going to be used, but we could use it in case something happens before the presentation.
+In the evening Yev and I sat down and worked on cleaning up some of the code, made sure constants are used where they seem to fit etc. Tomorrow we are going to test the entire system at 14.00, and I will be cleaning up some code in the morning and merge the branches with Yev.
+
+<h3>Sunday 22 May</h3>
+
