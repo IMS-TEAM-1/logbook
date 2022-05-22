@@ -9,7 +9,7 @@
 # **Roll:	Developer**
 # **Datum:	2022-05-22**
 # **Sprint: 	7**
-# **Arbetade timmar: 20**
+# **Arbetade timmar: 30+**
 #
 # **Sammanfattning**
  Har kännts något stressigt så här på slutet då vissa hårdvarumässiga problem dykt upp helt plötsligt och vi haft mycket problem med att få till anslutningen med bluetooth till appen på mobilen.
