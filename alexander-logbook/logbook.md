@@ -69,7 +69,7 @@ Began going over comments as well as writing a systems overview document.
 
 # Week 8, 2022-05-16 - 2022-05-22
 
-  * hours worked: 40
+  * hours worked: 50
 
 More writing of comments and documentation.
 Assisted backend team in work on file uploads.
